@@ -26,3 +26,9 @@ document.body.insertAdjacentHTML(
 <strong>Hi there!</strong> You've read an important message.
 </div>`
 );
+
+function clear(elem) {
+  setTimeout(() => elem.remove(), 1000); // it will remove the elem after 1sec of time.
+}
+
+clear(elem);
