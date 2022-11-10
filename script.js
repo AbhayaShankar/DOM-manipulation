@@ -17,3 +17,12 @@ olList.prepend(liFirst);
 let liSecond = document.createElement("li");
 liSecond.innerHTML = "append";
 olList.append(liSecond);
+
+//insertAdjacentHTML/Text/Element
+
+document.body.insertAdjacentHTML(
+  "afterbegin",
+  `<div class="alert">
+<strong>Hi there!</strong> You've read an important message.
+</div>`
+);
